@@ -1,4 +1,23 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>nenna</PageTitle>
 
+<div class="container-fluid main-div">
+    <div class="row main-div">
+        <div class="col menu-col" onclick="location.href='@me';" style="cursor: pointer;">
+            <h2>me</h2>
+        </div>
+        <div class="col menu-col" onclick="location.href='@project1';" style="cursor: pointer;">
+            <h2>some-project-1</h2>
+        </div>
+        <div class="col menu-col" onclick="location.href='@project2';" style="cursor: pointer;">
+            <h2>some-project-2</h2>
+        </div>
+    </div>
+</div>
+
+@code {
+    string me = "/me";
+    string project1 = "/projects/some-project-1";
+    string project2 = "/projects/some-project-2";
+}

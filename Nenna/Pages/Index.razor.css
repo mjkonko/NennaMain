@@ -1,0 +1,35 @@
+.main-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.menu-col {
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    flex-grow: 1;
+    transition: flex-grow 0.3s; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu-col:hover {
+    background-color: #e9ecef;
+    transition: all 0.3s ease;
+    flex-grow: 2;
+}
+
+.menu-col h2 {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}

@@ -19,35 +19,51 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    p {
+        font-size: large;
+    }
+
+    h2 {
+        font-size: xx-large;
+    }
 }
 
 .menu-col:hover {
     flex-grow: 2;
 }
-
-.menu-col-violetgradient {
+.menu-col-home {
     background-size: 200% 200%;
 }
 
-.menu-col-violetgradient:hover {
+.menu-col-home:hover {
     background-position: 100% 0;
-    background-image: linear-gradient(65deg, #265023, #1f072c);
+    background-image: linear-gradient(65deg, #265023, #0c0a36);
 }
 
-.menu-col-darkgreengradient {
+.menu-col-cvgradient {
     background-size: 200% 200%;
 }
 
-.menu-col-darkgreengradient:hover {
+.menu-col-cvgradient:hover {
     background-position: 100% 0;
-    background-image: linear-gradient(65deg, #1f072c, #072b09);
+    background-image: linear-gradient(65deg, #0c0a36, #602c08);
 }
 
-.menu-col-darkblueradient {
+.menu-col-linkedingradient {
     background-size: 200% 200%;
 }
 
-.menu-col-darkblueradient:hover {
+.menu-col-linkedingradient:hover {
     background-position: 100% 0;
-    background-image: linear-gradient(65deg, #072b09, #0c0a36);
+    background-image: linear-gradient(65deg, #602c08, #006094);
+}
+
+.menu-col-githubgradient {
+    background-size: 200% 200%;
+}
+
+.menu-col-githubgradient:hover {
+    background-position: 100% 0;
+    background-image: linear-gradient(65deg, #006094, #1b5e2a);
 }

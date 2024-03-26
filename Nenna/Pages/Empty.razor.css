@@ -25,29 +25,20 @@
     flex-grow: 2;
 }
 
-.menu-col-violetgradient {
+.menu-col-home {
     background-size: 200% 200%;
 }
 
-.menu-col-violetgradient:hover {
+.menu-col-home:hover {
     background-position: 100% 0;
-    background-image: linear-gradient(65deg, #265023, #1f072c);
+    background-image: linear-gradient(65deg, #265023, #0c0a36);
 }
 
-.menu-col-darkgreengradient {
+.menu-col-gifgradient{
     background-size: 200% 200%;
 }
 
-.menu-col-darkgreengradient:hover {
+.menu-col-gifgradient:hover {
     background-position: 100% 0;
-    background-image: linear-gradient(65deg, #1f072c, #072b09);
-}
-
-.menu-col-darkblueradient {
-    background-size: 200% 200%;
-}
-
-.menu-col-darkblueradient:hover {
-    background-position: 100% 0;
-    background-image: linear-gradient(65deg, #072b09, #0c0a36);
+    background-image: linear-gradient(65deg, #ad3303, #9907c5);
 }

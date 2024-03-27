@@ -10,22 +10,8 @@ using RestSharp;
         </div>
         <div class="col-3 menu-col menu-col-gifgradient" style="cursor: pointer; font-size: x-large">
                 <p>You're early! This page is not ready yet but will be...one day</p>
-                <p style = "margin-bottom: 3em">Here's a meme to keep you entertained:</p>
-                <iframe src="https://www.memes.com/m/7dBoDbgVV49/embed" style="background:#fff;border:0;margin: 1px;min-width:330px;padding:0;width:50.375%;height:40%; max-height:50%;" frameborder="0" scrolling="yes"></iframe><script async="" src="//cdn.memes.com/assets/embed.js"></script>
         </div>
     
     </div>
 </div>
-
-@code {
-    string? memelink = null;
-    public void Loadmeme() //to-do?
-    {
-        var client = new RestSharp.RestClient("https://api.imgflip.com/get_memes");
-        var request = new RestSharp.RestRequest();
-        RestSharp.RestResponse response = client.ExecuteAsync(request).Result;
-        Console.WriteLine(response);
-        memelink = response.Content;
-    }
-}
 ```

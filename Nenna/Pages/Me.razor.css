@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    right: 0;
     height: 100%;
     display: flex;
 }
@@ -66,4 +66,10 @@
 .menu-col-githubgradient:hover {
     background-position: 100% 0;
     background-image: linear-gradient(65deg, #006094, #1b5e2a);
+}
+
+@media only screen and (max-width: 600px) {
+    .main-div {
+        flex-direction: column;
+    }
 }

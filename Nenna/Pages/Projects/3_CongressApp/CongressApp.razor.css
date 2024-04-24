@@ -1,0 +1,67 @@
+.main-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+}
+
+.menu-col {
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    background-color: #050b12eb;
+    color: #ffffffd0;
+    flex-grow: 1;
+    transition: flex-grow 0.3s, background-position 1s, background-image 1s; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-size: x-large;
+    }
+
+    h2 {
+        font-size: xx-large;
+    }
+}
+
+.menu-col:hover {
+    flex-grow: 2;
+}
+.menu-col-home {
+    background-size: 200% 200%;
+}
+
+.menu-col-home:hover {
+    background-position: 100% 0;
+    background-image: linear-gradient(65deg, #265023, #0c0a36);
+}
+
+.menu-col-gradient {
+    background-size: 200% 200%;
+}
+
+.menu-col-gradient:hover {
+    background-position: 100% 0;
+    background-image: linear-gradient(65deg, #968f91, #530505);
+}
+
+.img-screenshot {
+    width: 35%; 
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .main-div {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin: 0;
+        padding: 0%;
+        position: relative;
+    }
+}

@@ -58,5 +58,11 @@
 @media (max-width: 768px) {
     .main-div {
         flex-direction: column;
+        height: auto;
+        width: auto;
+        margin: 0;
+        padding: 0%;
+        position: relative;
+
     }
 }

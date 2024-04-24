@@ -55,19 +55,13 @@
     object-fit: contain;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 768px) {
     .main-div {
         flex-direction: column;
-    }
-
-    .menu-col {
-        padding: 10px;
-    }
-
-    .img-screenshot {
-        
-        width: 35%; 
         height: auto;
-        object-fit: contain;
+        width: auto;
+        margin: 0;
+        padding: 0%;
+        position: relative;
     }
 }

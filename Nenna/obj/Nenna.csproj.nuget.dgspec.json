@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mikki/Documents/Areas/The Portfolio/Nenna/Nenna/Nenna.csproj": {}
+    "/Users/mikki/projects/The Portfolio/Nenna/Nenna/Nenna.csproj": {}
   },
   "projects": {
-    "/Users/mikki/Documents/Areas/The Portfolio/Nenna/Nenna/Nenna.csproj": {
+    "/Users/mikki/projects/The Portfolio/Nenna/Nenna/Nenna.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mikki/Documents/Areas/The Portfolio/Nenna/Nenna/Nenna.csproj",
+        "projectUniqueName": "/Users/mikki/projects/The Portfolio/Nenna/Nenna/Nenna.csproj",
         "projectName": "Nenna",
-        "projectPath": "/Users/mikki/Documents/Areas/The Portfolio/Nenna/Nenna/Nenna.csproj",
+        "projectPath": "/Users/mikki/projects/The Portfolio/Nenna/Nenna/Nenna.csproj",
         "packagesPath": "/Users/mikki/.nuget/packages/",
-        "outputPath": "/Users/mikki/Documents/Areas/The Portfolio/Nenna/Nenna/obj/",
+        "outputPath": "/Users/mikki/projects/The Portfolio/Nenna/Nenna/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mikki/.nuget/NuGet/NuGet.Config"
@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

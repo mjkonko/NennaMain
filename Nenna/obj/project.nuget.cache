@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OS2IIqohEPn6WgYTklqtqF63G7Dgsq3wWubb0IEzg3iyOsdU+lIp5T4n9SzC2J6rVHUvvoNH9FLSWRgME8b8hA==",
+  "dgSpecHash": "IKhqpE3eLZ5QM2edIHiI/b/m1Twfpe+Dsr2z5YRWXdwLlMI5a2bdhLJSQ4M/SyZ5OhV9Q/sFrE5YIj7asm0JyA==",
   "success": true,
-  "projectFilePath": "/Users/mikki/Documents/Areas/The Portfolio/Nenna/Nenna/Nenna.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/mikki/projects/The Portfolio/Nenna/Nenna/Nenna.csproj",
+  "expectedPackageFiles": [
+    "/Users/mikki/.nuget/packages/restsharp/110.2.0/restsharp.110.2.0.nupkg.sha512",
+    "/Users/mikki/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/Users/mikki/.nuget/packages/system.text.json/7.0.2/system.text.json.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
